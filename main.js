@@ -64,9 +64,10 @@ class Person{
 let zambak = new Person('Zambak', 4);
 let lilo = new Person('Lilo',10);
 
-// Adding to the age 
 lilo.printInfo();
 zambak.printInfo();
+console.log('\n')
+// Adding to the age 
 lilo.addAge(1);
 zambak.addAge(3);
 
